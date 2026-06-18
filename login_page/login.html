@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <HEAD>
+    <title>Login Page</title>
+</HEAD>
+<BOdy align="center">
+    <h1>Login Page</h1>
+    <form onsubmit="validate();
+                    return false;">
+
+        <lable for="username">Username</lable>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required><br><br>
+        
+        <lable for="Password">Password</lable>
+        <input type="text" id="Password" id="Password" name="Password" placeholder="Enter your Password" required><br><br>
+
+        <input type="submit" value="login">
+        <input type="reset" value="Reset">
+
+       
+
+    </form>
+
+    <script>
+        function validate()
+        {
+            var username=document.getElementById("username").value;
+            var Password=document.getElementById("Password").value;
+            if(username=== "admin" && Password=== "admin123")
+        {
+            location.replace("Arithmatic.html")    
+        }
+        else
+        {
+            alert("Invalid username or Pssword. Please try again.")
+        }
+
+        }
+    </script>
+    
+
+    
+</BOdy>
+</html>
