@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<HEAD>
+    <title>Inline and internal CSS</title>
+        <style>
+            body{
+                background-image: url("TIME TABLE SEM-2.jpeg");
+                background-size: cover:    
+            }
+
+
+            .para1{
+                color: lightyellow;
+                background-color: green;
+                font-family: 'Courier New', Courier, monospace;
+                text-align: left;
+                padding: 25px;
+                font-size: 25px;
+            }
+            #para2{
+                color: darkblue;
+                background-color: darkgoldenrod;
+                font family: 'Georgia', serif;
+                text-align: center;
+                padding: 25px;
+                font-size: 25px;
+            }
+
+
+            </style>
+</HEAD>
+<BOdy>
+    <h1 style = "color: white;
+    background-color: black;
+    font family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+    font-size: xx-large;">
+    This is an inline CSS Example</h1>
+
+    <p>here .is used for class selector style.
+        and # is used for id selector style.
+        as you see in above code in .para1 .is used for class selector style. 
+        and in 
+        #para2 #is used for is selector style. 
+        and class name we can use multi+ple time but id is used for only one time.      
+    </p>
+    <p>
+        This is a para with internal style.
+    </p>
+
+    <h2 class="para1"></h2>
+     <p class="para1">
+        This is a para with class selector style.
+    </p>
+
+     <p id="para2">
+        This is a para with id selector style.
+    </p>
+
+    <p style = "color: black;
+    background-color: rgb(128, 128, 128);
+    font family: 'Times New Roman', Times, serief;
+    text-align: center;
+    padding: 30px;
+    font-size: xx-large;">
+    This Is a Para With Inline CSS.
+</p>
+
+
+    
+</BOdy>
+</html>
